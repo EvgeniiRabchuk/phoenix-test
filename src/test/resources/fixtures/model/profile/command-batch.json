@@ -1,0 +1,16 @@
+[{
+  "userId": "existing-user-id",
+  "type": "increment",
+  "properties": {
+    "currentGold": 500,
+    "currentGems": 800
+  }
+},
+  {
+    "userId": "existing-user-id",
+    "type": "replace",
+    "properties": {
+      "currentGold": 500,
+      "currentGems": 800
+    }
+  }]

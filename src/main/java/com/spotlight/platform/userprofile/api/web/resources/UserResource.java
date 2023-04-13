@@ -39,6 +39,7 @@ public class UserResource {
         return commandService.processSingleCommand(command);
     }
 
+    //Maybe not necessary endpoint
     @Path("/command-batch")
     @POST
     public List<CommandResult> postCommandsBatchToUpdateProfile(@Valid List<Command> commands) {
